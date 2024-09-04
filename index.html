@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://localhost/online2/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+        .demo {
+            padding:80px 30px;
+            border: 0px;
+            margin:300px 100px;
+            width:500px;
+            margin: 50px auto;
+            text-align:center;   
+            color:white;         
+            
+        }
+        h1 {
+            color: green;;
+            font-size:45px;
+            font-family: cursive;
+        }
+        img {
+            width:20%;
+            border:3px solid orange;
+            border-radius:55%;
+            display:0 ; 
+	    margin: 0 auto;
+        }
+ body{
+            background-image:url("back3.jpg");
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            font-family: cursive;   
+        }
+
+        .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the buttons */
+}
+
+.button, .button2 {
+    padding: 12.5px 50px;
+    border: 0;
+    border-radius: 100px;
+    color: black;
+    font-weight: bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    cursor: pointer;
+    text-align: center; /* Center text inside the button */
+    display: inline-flex; /* Flexbox for centering text */
+    align-items: center; /* Vertically center text */
+    justify-content: center; /* Horizontally center text */
+    width: 150px; /* Set a consistent width for the buttons */
+    height: 50px; /* Set a height to ensure consistent button size */
+}
+
+.button {
+    background-color: #FA8072;
+}
+
+.button:hover {
+    background-color: #76c7c0;
+    box-shadow: 0 0 20px white;
+    transform: scale(1.1);
+}
+
+.button:active {
+    background-color: orange;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.button2 {
+    background-color: #D2691E	;
+}
+
+.button2:hover {
+    background-color: #ff6f00;
+    box-shadow: 0 0 20px white;
+    transform: scale(1.1);
+}
+
+.button2:active {
+    background-color: #90EE90;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+ 
+</style></head>
+    
+    <body>
+    <div class="demo">
+    <img src="./index_files/vote.png" alt="">
+    <h1>Online Voting</h1>
+    <br><br>
+    <div class="button-container">
+        <a href="http://localhost/online2/logincomfirm.php">
+            <button class="button">Admin</button>
+        </a>
+        <a href="http://localhost/online2/register.php">
+            <button class="button2">User</button>
+        </a>
+    </div>
+</div>
+
+    
+
+</body></html>
